@@ -16,9 +16,11 @@
   %h1
     .text-center Job Results
 - @job_results.models.jobs.each do |job|
-  .columns.small-6
+  .columns.small-4
     = job.title
-  .columns.small-6
+  .columns.small-4
     = job.company_name
+  .columns.small-4
+    = job.location
 
 
