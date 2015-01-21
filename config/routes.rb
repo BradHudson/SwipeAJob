@@ -7,6 +7,10 @@ Rails.application.routes.draw do
 
   resources :books
 
+  get 'projects/search', to: 'projects#search', as: 'projects_search'
+  get 'projects',to: 'projects#index'
+     #get 'projects'#, to: 'projects#index'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

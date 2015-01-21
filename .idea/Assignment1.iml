@@ -129,9 +129,12 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="better_errors (v2.0.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v3.5.1, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cb-api (v16.0.0, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.8.0, rbenv: 2.0.0-p481) [gem]" level="application" />
@@ -140,20 +143,30 @@
     <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.2, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="foundation-rails (v5.4.3.1, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.6, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml-rails (v0.7.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="html2haml (v2.0.0, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.13.3, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="iconv (v1.0.4, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.6, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.0.3, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.1, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.2, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.4.3, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.6.2, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.5.1, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.5, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.5, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nori (v2.4.0, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.1, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry-byebug (v2.0.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
@@ -163,9 +176,11 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby_parser (v3.6.4, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.5, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, rbenv: 2.0.0-p481) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sexp_processor (v4.4.5, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v1.2.0, rbenv: 2.0.0-p481) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.3, rbenv: 2.0.0-p481) [gem]" level="application" />

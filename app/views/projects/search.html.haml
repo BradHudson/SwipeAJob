@@ -1,0 +1,24 @@
+-#- @job_results.each do |job|
+-#  - present job, JobResultPresenter do |job_presenter|
+-#    .row.job-row
+-#      .columns.small-12
+-#        = job_presenter.careerbuilder_apply_indicator
+-#        .job-title
+-#          = job_presenter.linked_title
+-#        %strong.job-text
+-#          = job_presenter.formatted_company_name
+-#          = job_presenter.location
+-#        -if job_has_company_collapse? job_presenter.job.jobs_in_group
+-#          = link_to company_collapse_link_text(job_presenter.job.jobs_in_group),
+-#              company_collapse_url(job_presenter.job.grouping_value, job_presenter.company_name), :class => 'company-collapse-link'
+
+.row
+  %h1
+    .text-center Job Results
+- @job_results.models.jobs.each do |job|
+  .columns.small-6
+    = job.title
+  .columns.small-6
+    = job.company_name
+
+

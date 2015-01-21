@@ -1,0 +1,21 @@
+%h2{:align => "center"} Job Search
+%body
+-#%form{:action => "search", :method => "get" ,:controller => "projects"}
+= form_tag(projects_search_path, :method => "get", id: "search-form", action: "search") do
+  .row
+    .column
+      Keywords
+  .row
+    .column
+      -#%input{:id => "keywords",:class => "search-field",:type => "text",:align =>"center",:style => "width:100%",:name => "keywords"}
+      = text_field_tag :keywords, params[:keywords], class: "search-field", placeholder: "Search Keywords"
+  .row
+    .column
+      Location
+  .row
+    .column
+      -#%input{:id => "location",:class => "search-field",:type => "text",:align =>"center",:style => "width:100%",:name => "location"}
+      = text_field_tag :location, params[:location], class: "search-field", placeholder: "Search Location"
+  .row
+    .column
+      %input{:type => "submit",:align =>"center",:style => "width:100%"}
