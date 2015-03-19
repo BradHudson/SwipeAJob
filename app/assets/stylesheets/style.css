@@ -1,53 +1,59 @@
-.centerDiv{
-	width:200px; 
-    height:200px; 
-    position: fixed; 
-    background-color: skyblue; 
-    top: 50%; 
-    left: 50%; 
-    margin-top: -100px; 
-    margin-left: -100px;
+body {
+	background-image: url('../img/binding_dark.png');
+	background-repeat: repeat;
 }
 
-.secondDiv{
-	width:100px; 
-    height:100px;  
-    background-color: skyblue; 
+.search-field {
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 0.9em; }
+.search-field h2 {
+    font-size: 1.3em;
+    color: #c7560a; }
+
+#saveForm {
+    position: relative;
+    top: -43px;
+    left: 410px;
+    width: 200px;
+    height: 200px;
     position: fixed;
-    top: 50%; 
-    left: 50%; 
-    margin-top: -220px; 
-    margin-left: -50px;
-}
+    background-color: skyblue;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px; }
 
-.centerText{
-    width:200px; 
-    height:200px;
+.secondDiv {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -50px; }
+
+.centerText {
+    width: 200px;
+    height: 200px;
     position: relative;
     top: 50%;
-    left: 50%; 
-    margin-top: -100px; 
-    margin-left: -100px;
-}
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px; }
 
-.secondText{
-	width:100px; 
-    height:100px;  
-    background-color: skyblue; 
+.secondText {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
     position: fixed;
-    top: 50%; 
-    left: 50%; 
-    margin-top: -220px; 
-    margin-left: -50px;
-}
-
-.rightSwipe{
-    background-color: skyblue; 
-}
-
-.leftSwipe{
-    background-color: red; 
-}
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -50px; }
 
 .swipe {
 	overflow: hidden;
@@ -60,16 +66,32 @@
 .swipe-wrap {
 	overflow: hidden;
 	position: relative;
+    background-image: url("paper.gif");
 }
 .swipe-wrap > div {
 	float: left;
 	width: 100%;
 	position: relative;
 }
-
-
-/*
-.container{
-	height: 100%;
-	width: 100%;
-}*/
+.swipe .nav {
+	position: absolute;
+	width: 80px;
+	height: 38px;
+	z-index: 10;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	color: #fff;
+	top: 45%;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.8)
+}
+.swipe .nav.next {
+	right: 0;
+	-webkit-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+.swipe .nav.prev {
+	-webkit-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}

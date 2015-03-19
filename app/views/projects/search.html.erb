@@ -1,0 +1,42 @@
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Swipe-able Slider with Swipe.js - Hongkiat.com</title>
+    <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" %>
+    <%= javascript_include_tag "application" %>
+    <script>
+        $(document).ready(function() {
+            Slider = $('#slider').Swipe({
+//                auto: 3000,
+//                continuous: true
+            }).data('Swipe');
+
+            $('.next').on('click', Slider.next);
+            $('.prev').on('click', Slider.prev);
+        });
+    </script>
+
+</head>
+
+<body>
+
+<div class="demo-wrapper">
+    <div id="slider" class="swipe" style="visibility: visible;">
+        <div class="swipe-wrap" style="width: 3000px">
+            <% (@job_results).models.jobs.each do |job| %>
+            <div data-index="0" style="width: 600px; left: 0px; transition-duration: 300ms; -webkit-transition-duration: 300ms; -webkit-transform: translate(-600px, 0px) translateZ(0px);">
+              <tr>
+              <td>Job Title:</td>
+              <td><%= job.title %></td>
+              </tr>
+            </div>
+            <% end %>
+
+        </div>
+        <span class="nav prev">Prev</span>
+        <span class="nav next">Next</span>
+    </div>
+</div>
+
+
+</body></html>
