@@ -1,0 +1,75 @@
+.centerDiv{
+	width:200px; 
+    height:200px; 
+    position: fixed; 
+    background-color: skyblue; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: -100px; 
+    margin-left: -100px;
+}
+
+.secondDiv{
+	width:100px; 
+    height:100px;  
+    background-color: skyblue; 
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    margin-top: -220px; 
+    margin-left: -50px;
+}
+
+.centerText{
+    width:200px; 
+    height:200px;
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    margin-top: -100px; 
+    margin-left: -100px;
+}
+
+.secondText{
+	width:100px; 
+    height:100px;  
+    background-color: skyblue; 
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    margin-top: -220px; 
+    margin-left: -50px;
+}
+
+.rightSwipe{
+    background-color: skyblue; 
+}
+
+.leftSwipe{
+    background-color: red; 
+}
+
+.swipe {
+	overflow: hidden;
+	position: relative;
+	max-width: 600px;
+	width: 100%;
+	height: 350px;
+	margin: 100px auto 0;
+}
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.swipe-wrap > div {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+
+/*
+.container{
+	height: 100%;
+	width: 100%;
+}*/

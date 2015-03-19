@@ -19,4 +19,8 @@ class ProjectsController < ApplicationController
     #@job_results = search
     #@results = Project.search params[:keywords]
   end
+
+  def getCompanyComments
+    Cb::Requests::Company::Find.new()
+  end
 end

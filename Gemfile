@@ -14,13 +14,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'foundation-rails', '5.4.3.1'
 gem 'iconv'
-gem 'cb-api'
+#gem 'cb-api'
 gem 'better_errors'
+gem 'cb-api-internal', '~> 7.1', '>= 7.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem "sqlite3", "~> 1.3.0", :require => "sqlite3"
+  gem 'sqlite3', '~> 1.3.0', :require => 'sqlite3'
   gem 'pry-byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -28,6 +29,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :test do
+  gem 'rspec-rails', '~> 3.1'
 end
 
 group :production do
