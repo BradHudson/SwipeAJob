@@ -1,0 +1,2 @@
+/Users/bhudson/.rbenv/versions/2.0.0-p481/bin/ruby extconf.rb 
+/Users/bhudson/.rbenv/versions/2.0.0-p481/bin/ruby: invalid switch in RUBYOPT: -c (RuntimeError)
